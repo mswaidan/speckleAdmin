@@ -5,7 +5,7 @@
   "author": "mswaidan <mswaidan@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node build/dev-server.js --host 0.0.0.0 --disableHostCheck --inline",
     "start": "node build/dev-server.js",
     "build": "node build/build.js"
   },

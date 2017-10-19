@@ -22,7 +22,7 @@ Vue.component('user', User)
 Vue.prototype.$http = axios;
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://localhost:8080/api/' //change to your server address
+axios.defaults.baseURL = 'http://104.131.11.240:8080/api/' //change to your server address
 Vue.use(VueMaterial)
 
 Vue.material.registerTheme('default', {

@@ -1,6 +1,8 @@
 <template>
   <div class='streams'>
-    {{streams}}
+    <ul>
+      <li v-for="stream in streams">{{stream.streamId}}</li>
+    </ul>
   </div>
 </template>
 

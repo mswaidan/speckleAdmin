@@ -1,6 +1,8 @@
 <template>
   <div class='Clients'>
-    {{clients}}
+    <ul>
+      <li v-for="client in clients">{{client}}</li>
+    </ul>
   </div>
 </template>
 
